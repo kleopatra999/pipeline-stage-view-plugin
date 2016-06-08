@@ -173,7 +173,7 @@ public class ChangeSetExt {
             commit.setCommitId(entry.getCommitId());
             commit.setCommitUrl(repoUrl);
             commit.setMessage(entry.getMsg());
-            commit.setAuthorJenkinsId(entry.getAuthor().getFullName());
+            commit.setAuthorJenkinsId("Author-not-supplied");
             commit.setTimestamp(entry.getTimestamp());
 
             if (commit.getTimestamp() > -1) {

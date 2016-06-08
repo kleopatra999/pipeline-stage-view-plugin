@@ -15,7 +15,6 @@ mvc.register(require('./controller/stage-logs'));
 mvc.register(require('./controller/node-log'));
 mvc.register(require('./controller/run-input-required'));
 mvc.register(require('./controller/build-artifacts-popup'));
-mvc.register(require('./controller/run-changesets'));
 mvc.register(require('./controller/remove-sidepanel'));
 
 // Apply controllers to the whole document.

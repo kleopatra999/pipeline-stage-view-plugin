@@ -49,10 +49,6 @@
                   <div class="date">{{formatDate this.startTimeMillis 'month'}} {{formatDate this.startTimeMillis 'dom'}}</div>
                   <div class="time">{{formatDate this.startTimeMillis 'time'}}</div>
                 </div>
-                {{#if this._links.changesets}}<div class="changeset-box" cbwf-controller="run-changesets" objectUrl="{{this._links.changesets.href}}"></div>
-                {{else}}
-                <div class="changeset-box no-changes">No Changes</div>
-                {{/if}}
                 <div class="stage-end-icons extension-dock">
                   {{#if this._links.artifacts}}
                   <div cbwf-controller="build-artifacts-popup" objectUrl="{{this._links.artifacts.href}}"><a class="link"><i class="glyphicon glyphicon-download" title="Download"></i></a></div>

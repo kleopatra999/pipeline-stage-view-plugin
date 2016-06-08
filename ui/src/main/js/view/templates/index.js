@@ -43,8 +43,6 @@ var templateCache = {
     'run-input-required': require('./run-input-required.hbs'),
     'run-input-required-redirect': require('./run-input-required-redirect.hbs'),
     'build-artifacts': require('./build-artifacts.hbs'),
-    'run-changesets': require('./run-changesets.hbs'),
-    'run-changeset': require('./run-changeset.hbs')
 };
 
 // Initialise handlebars with helpers
